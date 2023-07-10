@@ -1,1 +1,1 @@
-# Ardina-Putri---Gold-Challenge
+9900961_10_APR_hate speech_Gold
