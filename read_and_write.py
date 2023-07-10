@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('Data - Asset Challenge/tweets.db', check_same_thread=False)
+conn = sqlite3.connect('Data/tweets.db', check_same_thread=False)
 
 def create_database():
     conn.execute("""CREATE TABLE IF NOT EXISTS clean_tweets (id INTEGER PRIMARY KEY AUTOINCREMENT, original_tweet char(1000), cleaned_tweet char(1000))""")

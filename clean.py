@@ -2,8 +2,8 @@ import re
 import emoji
 import pandas as pd
 
-abusive = pd.read_csv('Data - Asset Challenge/abusive.csv', encoding='utf-8')
-new_kamusalay = pd.read_csv('Data - Asset Challenge/new_kamusalay.csv', encoding='latin1')
+abusive = pd.read_csv('Data/abusive.csv', encoding='utf-8')
+new_kamusalay = pd.read_csv('Data/new_kamusalay.csv', encoding='latin1')
 
 abusive_words = abusive['ABUSIVE'].tolist()
 
